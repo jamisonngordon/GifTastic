@@ -14,7 +14,6 @@ $(document).ready(function () {
 
 function handleClick(event) {
 
-    debugger;
     $("#gifs").hide();
 
     var term = $(event.target).text().trim();
@@ -93,8 +92,6 @@ function fillGifs(data) {
 }
 
 function swapImages (event) {
-
-    debugger;
 
     var image = $(event.target);
 
